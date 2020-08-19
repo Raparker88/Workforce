@@ -38,8 +38,8 @@ const render = () => {
         let employeeComputer = computers.find(computer => employee.computerId === computer.id)
         let employeeDepartment = departments.find(department => employee.departmentId === department.id)
         let employeeLocation = locations.find(location => employee.locationId === location.id)
+        
         let employeeCustomerRelations = getRelationships(employee)
-        console.log(employeeCustomerRelations)
         let matchingCustomers = getCustomerMatch(employeeCustomerRelations)
 
         
@@ -48,7 +48,6 @@ const render = () => {
         employee.location = employeeLocation
         employee.customers = matchingCustomers
 
-        console.log(employee)
 
         return employeeHTMLConverter(employee)
     }).join('')

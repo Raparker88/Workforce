@@ -6,8 +6,17 @@
     text-align: center;
 }
 
-.customerList {
+ul {
     width: fit-content;
     text-align: left;
     margin: auto;
+}
+
+.customerCard {
+    background-color: lightskyblue;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    width: 25rem;
+    text-align: center;
+
 }
