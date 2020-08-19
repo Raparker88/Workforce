@@ -5,3 +5,9 @@
     width: 25rem;
     text-align: center;
 }
+
+.customerList {
+    width: fit-content;
+    text-align: left;
+    margin: auto;
+}

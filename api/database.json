@@ -105,5 +105,82 @@
             "id": 3,
             "city": "Memphis"
         }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "Serial Sales"
+        },
+        {
+            "id": 3,
+            "name": "Did it Distributers"
+        },
+        {
+            "id": 4,
+            "name": "At Large Associates"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 4,
+            "customerId": 3,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 4,
+            "employeeId": 2
+        },
+        {
+            "id": 6,
+            "customerId": 1,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 2,
+            "employeeId": 3
+        },
+        {
+            "id": 8,
+            "customerId": 3,
+            "employeeId": 4
+        },
+        {
+            "id": 9,
+            "customerId": 4,
+            "employeeId": 4
+        },
+        {
+            "id": 10,
+            "customerId": 1,
+            "employeeId": 5
+        },
+        {
+            "id": 11,
+            "customerId": 2,
+            "employeeId": 5
+        }
+        
+    
     ]
 }
